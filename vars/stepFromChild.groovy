@@ -1,8 +1,7 @@
-def call(Map args) {
+def call() {
 
     echo 'entering stepFromChild'
 
-    stepFromChildOther([:])
-    stepFromChildOther([:])
+    stepFromChildOther()
+    stepFromChildOther()
 }
-
